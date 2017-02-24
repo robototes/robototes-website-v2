@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/robototes/robototes-website-v2/issues"
   },
-  "homepage": "https://www.robototes.com"
+  "homepage": "https://www.robototes.com",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
 }
