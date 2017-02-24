@@ -4,6 +4,7 @@
 [![david][david]][david-url]
 [![standard][standard]][standard-url]
 [![inchci][inchci]][inchci-url]
+[![robototes][robototes]][robototes-url]
 
 Fast, static website designed for Firebase Baas
 
@@ -18,3 +19,6 @@ Fast, static website designed for Firebase Baas
 
 [inchci]: http://inch-ci.org/github/robototes/robototes-website-v2.svg?branch=develop&style=flat-square
 [inchci-url]: http://inch-ci.org/github/robototes/robototes-website-v2
+
+[robototes]: https://img.shields.io/badge/GO-ROBOTOTES!-red.svg?style=flat-square
+[robototes-url]: https://www.robototes.com
