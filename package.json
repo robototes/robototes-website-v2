@@ -1,0 +1,18 @@
+{
+  "name": "robototes-website-v2",
+  "version": "1.0.0",
+  "description": "Fast, static website designed for Firebase Baas",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robototes/robototes-website-v2.git"
+  },
+  "author": "Robbie Robototes <robototes2412@gmail.com>",
+  "license": "LICENSE in LICENSE",
+  "bugs": {
+    "url": "https://github.com/robototes/robototes-website-v2/issues"
+  },
+  "homepage": "https://www.robototes.com"
+}
