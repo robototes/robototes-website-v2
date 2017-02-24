@@ -17,7 +17,26 @@ export default {
   },
   module: {
     rules: [
-      
+      {
+        test: /\.(js|es\d?)$/,
+        include: path.resolve(__dirname, 'src', 'js', 'app'),
+        use: [
+          {
+            loader: 'babel-loader',
+            options: {
+              presets: [
+                'latest',
+                'babili'
+              ],
+              plugins: [
+                'add-module-exports',
+                'transform-async-to-generator',
+                'transform-runtime'
+              ]
+            }
+          }
+        ]
+      }
     ]
   },
   plugins: [
