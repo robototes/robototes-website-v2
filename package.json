@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Fast, static website designed for Firebase Baas",
   "scripts": {
-    "test": "npm test"
+    "test": "npm run lint",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
