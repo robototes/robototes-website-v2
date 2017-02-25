@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "production": "robototes-website-v2",
+    "staging": "robototes-website-v2-staging"
+  }
+}
