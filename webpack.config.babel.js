@@ -27,8 +27,7 @@ export default {
             loader: 'babel-loader',
             options: {
               presets: [
-                'latest',
-                'babili'
+                'latest'
               ],
               plugins: [
                 'add-module-exports',
