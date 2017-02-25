@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Fast, static website designed for Firebase Baas",
   "scripts": {
+    "dev": "webpack -d --watch --config webpack.config.babel.js && webpack-dev-server --config webpack.config.babel.js",
     "build": "webpack -p --bail --config webpack.config.babel.js",
     "test": "npm run lint",
     "lint": "standard"
@@ -32,6 +33,7 @@
     "standard": "^8.6.0",
     "style-loader": "^0.13.1",
     "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1",
     "yaml-loader": "^0.4.0"
   }
 }
